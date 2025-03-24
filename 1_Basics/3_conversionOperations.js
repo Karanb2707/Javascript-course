@@ -39,3 +39,5 @@ console.log(typeof($numberString));
 let $stringCoversion = String($numberString);
 
 console.log(typeof($stringCoversion))
+
+//27 => "27"
