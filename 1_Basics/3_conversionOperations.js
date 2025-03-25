@@ -66,10 +66,24 @@
 // let $str3 = $str1 + $str2;
 // console.log($str3);
 
-console.log("1" + 2); //string and intger always string
-console.log(1 + "2"); //intger and string also always string
-console.log("1" + 2 + 2);
-console.log(1 + 2 + "2");
+// console.log("1" + 2); //string and intger always string
+// console.log(1 + "2"); //intger and string also always string
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
 
 //Note: In JS operation works from left side to right side
 
+//Prefix: ++x, --x
+let a = 5;
+let b = ++a;
+
+//Reason a first increment then assign to b
+console.log(`a:${a} | b:${b}`);
+
+
+//Postfix: x++, x--
+let x = 5;
+let y = x++;
+
+//Reason x first assign then increment
+console.log(`x:${x} | y:${y}`);
