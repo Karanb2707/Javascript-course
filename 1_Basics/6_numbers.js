@@ -18,12 +18,20 @@
 
 //********************** Maths **********************/
 
-console.log(Math); //Its actual an object
-console.log(Math.abs(-5)); //Negative to possitive
-console.log(Math.round(4.3231)); //Round to nearest number
+// console.log(Math); //Its actual an object
+// console.log(Math.abs(-5)); //Negative to possitive
+// console.log(Math.round(4.3231)); //Round to nearest number
 
-console.log(Math.ceil(4.3)) //Convert to upper value
-console.log(Math.floor(4.8)) //Convert to lower value
+// console.log(Math.ceil(4.3)) //Convert to upper value
+// console.log(Math.floor(4.8)) //Convert to lower value
 
-console.log(Math.min(1,2,4,9,5))
-console.log(Math.max(1,2,4,9,5))
+// console.log(Math.min(1,2,4,9,5))
+// console.log(Math.max(1,2,4,9,5))
+
+// console.log(Math.random()); //Always between 1 to 0
+// console.log((Math.random() * 10) + 1); //Now it will come between 1 to 10
+
+const min = 10;
+const max = 20;
+
+console.log(Math.floor(Math.random() * (max - min + 1)) + min)
