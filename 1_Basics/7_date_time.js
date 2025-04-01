@@ -36,7 +36,7 @@ let newDate = new Date();
 // console.log(newDate.getMonth()); //In js month start from 0, 3 => April
 // console.log(newDate.getMinutes());
 
-let formatDate = newDate.toLocaleDateString('en-IN', {
+let formatDate = newDate.toLocaleString('default', {
     dateStyle: 'long',
     weekday: 'short'
 });
