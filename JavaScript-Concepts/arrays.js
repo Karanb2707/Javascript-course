@@ -70,12 +70,3 @@ console.log(heroes.slice(1, 3)); //last index not include
 
 heroes.splice(2, 1, 'shkitman');
 console.log(heroes);
-
-//.................. Modern Array Methods........................
-//Map: used to do same operation on every value of array but it return new array with that operation perform
-
-let nums = [12, 34, 56, 78, 89];
-
-nums.map((val) => {
-    console.log(`values: ${val}`);
-})
