@@ -13,5 +13,13 @@
 //DOM Manipulation:
 
 //1. Selecting with id:
-let header = document.getElementById("header");
-console.log(header);
+let button = document.getElementById("button");
+console.log(button);
+
+//2. Selecting with class: return HTML collection
+let headings = document.getElementsByClassName("heading");
+console.log(headings);
+
+//3. Selecting with tag:
+let paragraphs = document.getElementsByTagName("p");
+console.log(paragraphs);
