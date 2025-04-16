@@ -2,7 +2,7 @@ body{
     background-color: antiquewhite;
 }
 
-h1, h4{
+.heading{
     color: rgb(0, 71, 71);
     font-family: sans-serif;
     font-weight: bold;
