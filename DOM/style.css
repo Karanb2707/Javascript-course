@@ -1,0 +1,31 @@
+body{
+    background-color: antiquewhite;
+}
+
+.heading{
+    color: rgb(0, 71, 71);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+p{
+    font-family: cursive;
+}
+
+button{
+    background-color: rgb(255, 146, 255);
+    color: black;
+    padding: 8px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.box{
+    background-color: aqua;
+    color: black;
+    margin: 5px;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
